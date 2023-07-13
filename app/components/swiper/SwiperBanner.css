@@ -1,0 +1,14 @@
+.swiper {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  color: #3b1759;
+  font-size: 30px;
+}
+
+.swiper-pagination-bullet-active {
+  background: #3b1759;
+}

@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "title": "Gorra Bulls",
+      "price": "30.000 COP",
+      "category": "Gorras",
+      "image": "https://res.cloudinary.com/dnzesrac8/image/upload/v1687387514/soul-one-shop/gorra-dummy-2_sglmja.png"
+    },
+    {
+      "id": 2,
+      "title": "Gorra Houston",
+      "price": "30.000 COP",
+      "category": "Gorras",
+      "image": "https://res.cloudinary.com/dnzesrac8/image/upload/v1687387514/soul-one-shop/gorra-dummy-3_krof7v.png"
+    },
+    {
+      "id": 3,
+      "title": "Shortys Chicana",
+      "price": "30.000 COP",
+      "category": "Tablas",
+      "image": "https://res.cloudinary.com/dnzesrac8/image/upload/v1687387514/soul-one-shop/madera-dummy-1_guvgbi.png"
+    },
+    {
+      "id": 4,
+      "title": "Gorra Long",
+      "price": "30.000 COP",
+      "category": "Gorras",
+      "image": "https://res.cloudinary.com/dnzesrac8/image/upload/v1687387514/soul-one-shop/gorra-dummy-1_x282rm.png"
+    },
+    {
+      "id": 5,
+      "title": "Shortys Chicana",
+      "price": "30.000 COP",
+      "category": "Tablas",
+      "image": "https://res.cloudinary.com/dnzesrac8/image/upload/v1687387514/soul-one-shop/madera-dummy-1_guvgbi.png"
+    }
+  ]
+
+}
+
+
