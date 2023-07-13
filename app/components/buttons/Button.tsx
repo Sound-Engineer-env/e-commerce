@@ -1,10 +1,9 @@
 interface ButtonProps {
   text: string
 }
-const Button = ({text}) => {
+const Button = () => {
   return (
     <div>
-      <button>{}</button>
     </div>
   )
 }
