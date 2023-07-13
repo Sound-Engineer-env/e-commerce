@@ -61,7 +61,7 @@ export default function RootLayout({
                 <p className='text-xl mb-3'>Contáctanos</p>
                 <form className='flex flex-col gap-5'>
                   <input type="text" placeholder='Email' className='rounded-md px-3 py-2 bg-[#F1F5F9]' />
-                  <textarea className="px-3 py-2 rounded-md bg-[#F1F5F9]" placeholder='Mensaje' name="Mensaje" cols="20" rows="3"></textarea>
+                  <textarea className="px-3 py-2 rounded-md bg-[#F1F5F9]" placeholder='Mensaje' name="Mensaje"></textarea>
                 </form>
               </div>
             </div>
