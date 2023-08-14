@@ -1,6 +1,8 @@
 'use client'
 import { GrFormAdd } from 'react-icons/gr';
 import Image from "next/image"
+import Button from '../buttons/Button';
+import { useRouter } from 'next/navigation';
 interface ProductCardProps {
   imageSrc: string;
   title: string;
@@ -9,9 +11,11 @@ interface ProductCardProps {
 }
 
 const ProductCard: React.FC<ProductCardProps> = ({imageSrc, title, price, category}) => {
+  const router = useRouter()
   return (
     <div 
       className="col-span-1 cursor-pointer group"
+      onClick={()=> router.push(`/product-detail/`)}
     >
       <div className="flex flex-col gap-2 w-full shadow-xl rounded-2xl overflow-hidden bg-white">
         <div
@@ -28,7 +32,7 @@ const ProductCard: React.FC<ProductCardProps> = ({imageSrc, title, price, catego
             className="
               object-cover 
               h-full 
-              w-full 
+              w-full
               transition
             "
             src={imageSrc}
@@ -47,25 +51,8 @@ const ProductCard: React.FC<ProductCardProps> = ({imageSrc, title, price, catego
           <div className='mb-1'>
             <p>{title}</p>
           </div>
-
-          <div className='mt-2'>
-            <button className="
-              border
-              border-primary
-              text-primary
-              rounded-full
-              bg-white
-              px-4
-              py-1
-              font-medium
-              transition
-              hover:bg-primary
-              hover:text-white
-              "
-            >
-              Agregar al carrito
-            </button>
-          </div>
+          <br />
+          <Button text="Agregar al carrito" />
         </div>
       </div>
     </div>
